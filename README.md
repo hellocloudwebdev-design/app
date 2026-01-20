@@ -59,10 +59,10 @@ Edit `.env` file:
 
 ```bash
 # WordPress API Configuration
-NEXT_PUBLIC_WORDPRESS_API_URL=https://your-wordpress-site.com/wp-json/wp/v2
+NEXT_PUBLIC_WORDPRESS_API_URL=https://newspapernow.in/wp-json/wp/v2
 
-# Or use the demo TechCrunch API (default)
-NEXT_PUBLIC_WORDPRESS_API_URL=https://techcrunch.com/wp-json/wp/v2
+# Or use another WordPress site
+NEXT_PUBLIC_WORDPRESS_API_URL=https://your-wordpress-site.com/wp-json/wp/v2
 ```
 
 ### 2. Install Dependencies
