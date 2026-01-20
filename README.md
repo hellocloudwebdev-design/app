@@ -1,4 +1,4 @@
-# NewsHub - Modern Headless WordPress News Website
+# Newspaper Now - Modern Headless WordPress News Website
 
 A production-ready, SEO-optimized news website built with Next.js 14 (App Router), Tailwind CSS, and headless WordPress as CMS.
 
