@@ -23,7 +23,7 @@ export async function generateMetadata({ params }) {
   const featuredImage = getFeaturedImage(post);
 
   return {
-    title: `${title} - NewsHub`,
+    title: `${title} - Newspaper Now`,
     description: excerpt.substring(0, 160),
     openGraph: {
       title,
