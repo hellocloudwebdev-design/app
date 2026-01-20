@@ -13,7 +13,7 @@ export const revalidate = 60; // ISR: Revalidate every 60 seconds
 
 async function HomePage({ searchParams }) {
   const page = parseInt(searchParams?.page || '1');
-  const { posts, totalPages, totalPosts, currentPage } = await getPosts({ page, perPage: 12 });
+  const { posts, totalPages, totalPosts, currentPage } = await getPosts({ page, perPage: 9 });
 
   if (posts.length === 0) {
     return (
