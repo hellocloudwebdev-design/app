@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Newspaper } from 'lucide-react';
+import Image from 'next/image';
 
 export default function Footer() {
   const currentYear = new Date().getFullYear();
@@ -11,8 +11,13 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
             <Link href="/" className="flex items-center space-x-2 text-foreground mb-4">
-              <Newspaper className="h-8 w-8" />
-              <span className="text-2xl font-bold">NewsHub</span>
+              <Image 
+                src="https://customer-assets.emergentagent.com/job_headless-herald/artifacts/zy3509wh_IMG_20260120_185345.png"
+                alt="Newspaper Now"
+                width={150}
+                height={50}
+                className="h-10 w-auto"
+              />
             </Link>
             <p className="text-muted-foreground">
               Your trusted source for the latest news and updates from around the world.
@@ -70,7 +75,7 @@ export default function Footer() {
         </div>
 
         <div className="border-t border-border mt-8 pt-8 text-center text-muted-foreground">
-          <p>&copy; {currentYear} NewsHub. All rights reserved.</p>
+          <p>&copy; {currentYear} Newspaper Now. All rights reserved.</p>
         </div>
       </div>
     </footer>
