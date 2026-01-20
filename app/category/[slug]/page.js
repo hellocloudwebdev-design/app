@@ -17,8 +17,8 @@ export async function generateMetadata({ params }) {
   }
 
   return {
-    title: `${category.name} News - NewsHub`,
-    description: category.description || `Latest ${category.name} news and updates`,
+    title: `${category.name} News - Newspaper Now`,
+    description: category.description || `Latest ${category.name} news and updates from Newspaper Now`,
     openGraph: {
       title: `${category.name} News`,
       description: category.description || `Latest ${category.name} news and updates`,
